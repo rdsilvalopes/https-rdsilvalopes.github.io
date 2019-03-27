@@ -45,6 +45,7 @@ html, body {
     .home, .home a {
         background-color: #4fac40;
         color: white;
+        margin-top: 3px;
     }
 
     .sub {
