@@ -10,6 +10,10 @@ html, body {
 
 }
 
+.banner {
+    grid-column: 1 / -1;
+}
+
 .conteudo {
     grid-column: 1 / -1;
     border: 1px solid black;
@@ -74,13 +78,12 @@ html, body {
     .banner {
         background-color: #f1f1f1;
         margin-bottom: 5px;
-        width: 10.6em;
     }
 
     .b1 {
-        margin: 8px;
+        padding: 15px;
         border: 3px solid gray;
-        padding: 13px 10px;
+        margin: 5px 5px;
         text-align: center;
     }
 }
